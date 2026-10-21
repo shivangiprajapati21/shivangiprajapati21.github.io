@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LUMI ♡ A Little Corner of the Internet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating decorations -->
+    <div class="sparkle sparkle-1">✦</div>
+    <div class="sparkle sparkle-2">✧</div>
+    <div class="sparkle sparkle-3">✦</div>
+    <div class="heart-float">♡</div>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                <span>✿</span> lumi
+            </a>
+
+            <div class="nav-links">
+                <a href="#journal">Journal</a>
+                <a href="#mood">Mood</a>
+                <a href="#memories">Memories</a>
+                <a href="#letter">Letter</a>
+            </div>
+
+            <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+                ☾
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-text">
+
+                <div class="mini-badge">
+                    ✿ welcome to my little world
+                </div>
+
+                <h1>
+                    A little place<br>
+                    for <em>little things.</em>
+                </h1>
+
+                <p>
+                    Thoughts, tiny memories, favorite songs,
+                    random feelings and all the beautiful little
+                    things that make ordinary days special.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#journal" class="primary-btn">
+                        Explore my world ♡
+                    </a>
+
+                    <a href="#letter" class="secondary-btn">
+                        Open a letter ✉
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Cute room illustration -->
+            <div class="room">
+
+                <div class="sun"></div>
+
+                <div class="cloud cloud-1">☁</div>
+                <div class="cloud cloud-2">☁</div>
+
+                <div class="window">
+                    <div class="window-sky">
+                        <span class="star">✦</span>
+                        <span class="star star-b">✧</span>
+                        <span class="moon">☾</span>
+                    </div>
+                </div>
+
+                <div class="plant">
+                    <div class="leaf leaf-a"></div>
+                    <div class="leaf leaf-b"></div>
+                    <div class="leaf leaf-c"></div>
+                    <div class="pot"></div>
+                </div>
+
+                <div class="desk">
+                    <div class="book"></div>
+                    <div class="cup">♡</div>
+                </div>
+
+                <div class="teddy">ʕ•ᴥ•ʔ</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LITTLE JOURNAL -->
+        <section id="journal" class="section">
+
+            <div class="section-title">
+                <span>01 — little journal</span>
+                <h2>Things worth remembering.</h2>
+                <p>
+                    Because sometimes the smallest moments
+                    become our favorite memories.
+                </p>
+            </div>
+
+
+            <div class="journal-grid">
+
+                <article class="journal-card pink">
+                    <div class="card-icon">🌷</div>
+                    <span class="date">today</span>
+
+                    <h3>A tiny happy moment</h3>
+
+                    <p>
+                        The sunlight came through my window this morning
+                        and everything felt soft and peaceful.
+                    </p>
+
+                    <span class="read-more">♡ keep this memory</span>
+                </article>
+
+
+                <article class="journal-card lavender">
+                    <div class="card-icon">☕</div>
+                    <span class="date">monday</span>
+
+                    <h3>Slow mornings</h3>
+
+                    <p>
+                        A warm cup of coffee, my favorite playlist
+                        and absolutely nowhere to rush.
+                    </p>
+
+                    <span class="read-more">♡ a soft morning</span>
+                </article>
+
+
+                <article class="journal-card blue">
+                    <div class="card-icon">🌙</div>
+                    <span class="date">last night</span>
+
+                    <h3>Thought of the day</h3>
+
+                    <p>
+                        Maybe life doesn't need to be figured out.
+                        Maybe we can simply enjoy where we are.
+                    </p>
+
+                    <span class="read-more">♡ remember this</span>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- MOOD -->
+        <section id="mood" class="section mood-section">
+
+            <div class="section-title center">
+                <span>02 — how are you feeling?</span>
+                <h2>Pick your little mood.</h2>
+                <p>
+                    There are no wrong feelings here. ♡
+                </p>
+            </div>
+
+
+            <div class="mood-box">
+
+                <button class="mood" data-message="Yay! Keep that beautiful smile. ♡">
+                    <span>🌸</span>
+                    <strong>Happy</strong>
+                    <small>feeling good</small>
+                </button>
+
+                <button class="mood" data-message="Take a deep breath. Everything will be okay. ☁">
+                    <span>☁️</span>
+                    <strong>Calm</strong>
+                    <small>peaceful mind</small>
+                </button>
+
+                <button class="mood" data-message="Dream big. Something wonderful is waiting. ✨">
+                    <span>✨</span>
+                    <strong>Excited</strong>
+                    <small>full of energy</small>
+                </button>
+
+                <button class="mood" data-message="It's okay to have cloudy days too. 🌧️">
+                    <span>🌧️</span>
+                    <strong>Moody</strong>
+                    <small>need some space</small>
+                </button>
+
+            </div>
+
+            <div id="moodMessage" class="mood-message">
+                Choose a mood above ♡
+            </div>
+
+        </section>
+
+
+        <!-- MEMORY GARDEN -->
+        <section id="memories" class="section">
+
+            <div class="section-title">
+                <span>03 — memory garden</span>
+                <h2>A garden full of little moments.</h2>
+                <p>
+                    Every flower holds a tiny story.
+                </p>
+            </div>
+
+
+            <div class="garden">
+
+                <div class="memory flower-one">
+                    <div class="flower">🌷</div>
+                    <div class="memory-note">
+                        <strong>Spring day</strong>
+                        <span>Everything felt new.</span>
+                    </div>
+                </div>
+
+                <div class="memory flower-two">
+                    <div class="flower">🌻</div>
+                    <div class="memory-note">
+                        <strong>Sunny afternoon</strong>
+                        <span>A day worth smiling about.</span>
+                    </div>
+                </div>
+
+                <div class="memory flower-three">
+                    <div class="flower">🌸</div>
+                    <div class="memory-note">
+                        <strong>A sweet moment</strong>
+                        <span>Small
